@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.fje.dam2.practicauf2android.OptionsFragment"
+    android:background="@android:color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="145dp"
+        android:id="@+id/btReturn" />
+
+    <CheckBox
+        android:text="Background Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="170dp"
+        android:id="@+id/cbMusic" />
+
+    <CheckBox
+        android:text="Sound Effects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="220dp"
+        android:id="@+id/cbSound" />
+</FrameLayout>
